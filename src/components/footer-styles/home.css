@@ -113,6 +113,14 @@
     .main-banner {
         width: 380px;
     }
+    .main-banner-content h5 {
+        font-size: 32px;
+        line-height: 64px;
+        letter-spacing: -2px;
+        text-transform: none;
+        font-weight: 500;
+    }
+    
     .small-banner{
         width: 390px;
     }
@@ -127,6 +135,7 @@
     .main-banner {
         width: 360px;
     }
+    
     .small-banner{
         width: 380px;
     }
