@@ -1,3 +1,16 @@
+.button{
+    background-color: #24262b;
+    color: white;
+    font-size: 14px;
+    padding: 13px 33px;
+    border-radius: 30px;
+}
+.button:hover{
+    background-color: #1693C2;
+    color: black;
+}
+/* home wrapper 1-- section  -----> starting */
+
 .main-banner-content {
     top: 15%;
     left: 5%;
@@ -25,12 +38,51 @@
     color: yellowgreen;
 
 }
+.small-banner-content {
+    top: 25%;
+    left: 10%;
+}
+.small-banner-content h4 {
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 24px;
+    color: orange;
+    margin: 0 0 12px;
+    letter-spacing: 0.3px;
+    text-transform: uppercase;
+}
+.small-banner-content h5 {
+    font-size: 22px;
+    line-height: 34px;
+    letter-spacing: -2px;
+    text-transform: none;
+    font-weight: 500;
+}
+.small-banner-content p {
+    font-size: 14px;
+    line-height: 22px;
+    letter-spacing: 0.4 ;
+    color: yellowgreen;
+
+}
+.small-banner{
+    width:49%;
+}
+
 
 @media screen and (max-width: 767px) {
     .main-banner-content h4 {
         font-size: 10px;
     }
     .main-banner {
+        width: 600px;
+    }
+    .small-banner{
+        width: 500px;
+    }
+    .small-banner-div{
+        top: 200%;
+        left: 150%;
         width: 500px;
     }
 }
@@ -47,15 +99,47 @@
         letter-spacing: 0.3px;
         text-transform: uppercase;
     }
+    .small-banner{
+        width: 470px;
+    }
+    .small-banner-div{
+        top: 200%;
+        left: 150%;
+        width: 470px;
+        padding-right: 0px;
+    }
 }
 @media screen and (min-width: 392px) and (max-width: 452px) {
     .main-banner {
         width: 380px;
     }
+    .small-banner{
+        width: 390px;
+    }
+    .small-banner-div{
+        top: 200%;
+        left: 150%;
+        width: 390px;
+    }
+    
 }
 @media screen and (min-width: 372px) and (max-width: 391px) {
     .main-banner {
         width: 360px;
+    }
+    .small-banner{
+        width: 380px;
+    }
+    .small-banner-div{
+        top: 200%;
+        left: 150%;
+        width: 380px;
+        padding-right: 0px;
+    }
+    .services-div{
+        top:300%;
+        left:100%;
+
     }
 }
 @media screen and (min-width: 0px) and (max-width: 371px) {
@@ -68,3 +152,24 @@
         width: 350px;
     }
 }
+
+/* home wrapper 1 ---------------> ends */
+
+/* //home-wrapper 2 starts ---------------------------------> */
+
+.home-wrapper-2{
+    background-color: #f5f5f7;
+}
+
+/* catrgories-section ---------------> starts */
+.categories{
+    background-color: white;
+    box-shadow: 0 0 10px #0000001a;
+    padding:15px;
+
+}
+.categories > div {
+    width: 24%;
+}
+
+/* catrgories-section ---------------> ends */
