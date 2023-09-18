@@ -38,7 +38,7 @@
     .main-banner {
         width: 450px;
     }
-    /* .main-banner-content h4 {
+    .main-banner-content h4 {
         font-size: 16px;
         font-weight: 400;
         line-height: 24px;
@@ -46,11 +46,21 @@
         margin: 0 0 12px;
         letter-spacing: 0.3px;
         text-transform: uppercase;
-    } */
+    }
 }
-@media screen and (min-width: 0px) and (max-width: 452px) {
+@media screen and (min-width: 392px) and (max-width: 452px) {
     .main-banner {
         width: 380px;
+    }
+}
+@media screen and (min-width: 372px) and (max-width: 391px) {
+    .main-banner {
+        width: 360px;
+    }
+}
+@media screen and (min-width: 0px) and (max-width: 371px) {
+    .main-banner {
+        width: 340px;
     }
 }
 @media screen and (min-width: 453px) and (max-width: 462px) {
