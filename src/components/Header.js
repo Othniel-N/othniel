@@ -3,7 +3,7 @@ import { Navbar, Nav, NavDropdown } from 'react-bootstrap';
 import { BsSearch } from 'react-icons/bs';
 import { NavLink, Link } from 'react-router-dom';
 // import "../homePageFront/styles/Header.css";
-import "./styles/Header.css"
+import "./header-styles/Header.css"
 
 const Header = () => {
   return (
@@ -11,7 +11,7 @@ const Header = () => {
       <div className="container-xxl">
         <Navbar.Brand>
           <Link to="/" className="text-white">
-            Awal-shop
+            Awal e-shop
           </Link>
         </Navbar.Brand>
         <Navbar.Toggle aria-controls="navbar-nav" />
